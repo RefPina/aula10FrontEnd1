@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    padding: 250px 0;
+    background-image: url('../img/cropped-CAptain-America-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(214, 11, 4);
+}
+
+button{
+    border: 0;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    background-color: rgb(6, 88, 241);
+    color: white;
+    transition: .7s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
